@@ -1,6 +1,6 @@
 ---
 hero:
-  title: library
+  title: GDesign
   description: A react library developed with dumi
   actions:
     - text: Hello
