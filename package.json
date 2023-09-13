@@ -38,7 +38,7 @@
       "eslint --fix",
       "prettier --write"
     ],
-    "*.{ts,tsx}": [
+    "*.{ts,tsx},!.dumirc.ts": [
       "eslint --fix",
       "prettier --parser=typescript --write"
     ]
@@ -54,7 +54,7 @@
     "classnames": "^2.3.2",
     "dumi": "^2.2.7",
     "dumi-theme-antd-style": "^0.29.4",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "father": "^4.3.1",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
