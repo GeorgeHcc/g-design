@@ -1,5 +1,4 @@
 ---
-debug: true
 demo:
   cols: 1
 group:
