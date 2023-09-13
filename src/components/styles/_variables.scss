@@ -1,0 +1,91 @@
+@import './platte';
+//产品色板
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-family-monospace: 'Lucida Console', Courier, monospace;
+$font-family-base: $font-family-sans-serif !default;
+//字体大小
+$font-size-base: 1rem !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * 0.825 !default;
+
+//字重
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+$font-weight-base: $font-weight-normal !default;
+
+//行高
+$line-height-base: 1.5 !default;
+$line-height-lg: 2 !default;
+$line-height-sm: 1.25 !default;
+
+//标题大小
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
+
+//链接
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+//body
+$body-bg: $white !default;
+$body-color: $gray-900 !default;
+$body-text-align: null !default;
+//border
+$border-width: 1px !default;
+$border-color: $gray-300 !default;
+$border-radius: 0.25rem !default;
+$border-radius-lg: 0.3rem !default;
+$border-radius-sm: 2rem !default;
+
+//按钮基本属性
+$btn-font-weight: 400;
+$btn-padding-y: 0.325rem !default;
+$btn-padding-x: 0.75rem !default;
+$btn-font-family: $font-family-base !default;
+$btn-font-size: $font-size-base !default;
+$btn-line-height: $line-height-base !default;
+
+//不同大小按钮的 padding和font size
+$btn-padding-y-sm: 0.25rem !default;
+$btn-padding-x-sm: 0.5rem !default;
+$btn-font-size-sm: $font-size-sm !default;
+$btn-padding-y-lg: 0.375rem !default;
+$btn-padding-x-lg: 1rem !default;
+$btn-font-size-lg: $font-size-lg !default;
+//按钮边框
+$btn-border-width: $border-width !default;
+//按钮其他
+$btn-box-shadow: inset 0 1px 0 rgba($white, 0.15);
+
+$btn-disabled-opacity: 0.65 !default;
+
+//链接按钮
+$btn-link-color: $link-color !default;
+$btn-link-hover-color: $link-hover-color !default;
+$btn-link-disabled-color: $gray-600 !default;
+//按钮radius
+$btn-border-radius: $border-radius !default;
+$btn-border-radius-lg: $border-radius-lg !default;
+$btn-border-radius-sm: $border-radius-sm !default;
+$btn-transition:
+  color 0.15s ease-in-out,
+  background-color 0.15s ease-in-out;
