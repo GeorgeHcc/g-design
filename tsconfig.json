@@ -10,7 +10,8 @@
       "@@/*": [".dumi/tmp/*"],
       "g-design": ["src"],
       "g-design/*": ["src/*", "*"]
-    }
+    },
+    "resolveJsonModule": true
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
 }
