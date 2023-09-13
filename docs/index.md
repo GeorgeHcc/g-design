@@ -1,22 +1,12 @@
 ---
 hero:
-  title: GDesign
-  description: A react library developed with dumi
+  title: G Design-for react ui labrary
+  description: 让你的组件更具生命力
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
-features:
-  - title: Hello
-    emoji: 💎
-    description: Put hello description here
-  - title: World
-    emoji: 🌈
-    description: Put world description here
-  - title: '!'
-    emoji: 🚀
-    description: Put ! description here
+    - text: 快速开始
+      link: /guide
+    - text: Github
+      link: https://github.com/GeorgeHcc/g-design
 ---
 
 g-design

@@ -5,6 +5,8 @@
 
 A react library developed with dumi
 
+该项目基于[dumi](https://d.umijs.org/)
+
 ## Usage
 
 TODO
